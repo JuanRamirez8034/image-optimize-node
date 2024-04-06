@@ -1,0 +1,25 @@
+{
+  "name": "image-optimize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "images:compress": "node src/compress.mjs",
+    "images:resize": "node src/resize.mjs",
+    "images": "npm run imagenes:compress && npm run imagenes:resize"
+  },
+  "keywords": [
+    "optimizar",
+    "imagenes",
+    "png",
+    "webp"
+  ],
+  "author": "Juan Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "imagemin": "^8.0.1",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-webp": "^8.0.0",
+    "sharp": "^0.33.3"
+  }
+}
