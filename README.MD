@@ -8,7 +8,7 @@ Estos scripts se encargan de obtener imagenes previamente cargadas en el proyect
 
 ### scripts
 
-```json
+```js
     "images:compress": "node src/compress.mjs", // comprime las imagenes
     "images:resize": "node src/resize.mjs", //redimenciona las imagenes en tres versiones [small, medium, large]
     "images": "npm run imagenes:compress && npm run imagenes:resize", // optimiza las imagenes de forma automatica
